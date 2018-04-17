@@ -23,7 +23,7 @@ function currentLine(katzDeli) {
     for (let i = 0; i < katzDeli.length; i++) {
       currentOrder.push(katzDeli[i])
     }
-    return `${isCurrently} ${currentOrder}`
+    return `The line is currently${currentOrder}`
   }
 }
 
