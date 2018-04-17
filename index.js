@@ -16,7 +16,7 @@ function nowServing(katzDeli) {
 }
 
 function currentLine(katzDeli) {
-  var currentOrder = {}
+  var currentOrder = []
   if (katzDeli.length === 0) {
     return "The line is currently empty"
   } else {
