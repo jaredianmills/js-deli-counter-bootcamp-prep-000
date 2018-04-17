@@ -27,5 +27,3 @@ function currentLine(katzDeli) {
     return `The line is currently${currentOrder}`
   }
 }
-
-console.log(currentLine(katzDeli))
