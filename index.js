@@ -22,7 +22,7 @@ function currentLine(katzDeli) {
   } else {
     for (let i = 0; i < katzDeli.length; i++) {
       var orderNumber = i + 1
-      currentOrder.push(` ${orderNumber}. ${katzDeli[i]})
+      currentOrder.push(` ${orderNumber}. ${katzDeli[i]}`)
     }
     return `The line is currently${currentOrder}`
   }
