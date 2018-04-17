@@ -24,6 +24,6 @@ function currentLine(katzDeli) {
       var orderNumber = i + 1
       currentOrder.push(` ${orderNumber}. ${katzDeli[i]}`)
     }
-    return `The line is currently${currentOrder}`
+    return `The line is currently:${currentOrder}`
   }
 }
