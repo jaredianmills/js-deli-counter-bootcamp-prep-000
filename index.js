@@ -21,7 +21,7 @@ function currentLine(katzDeli) {
     return "The line is currently empty"
   } else {
     for (let i = 0; i < katzDeli.length; i++) {
-      currentOrder.push(`katzDeli[i]`)
+      currentOrder.push(katzDeli[i])
     }
     return `The line is currently: ${currentOrder}`
   }
